@@ -6,7 +6,49 @@
     <description>Recent content in Posts on 川道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Sep 2022 00:30:04 +0800</lastBuildDate><atom:link href="https://swpper.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2022 09:45:41 +0800</lastBuildDate><atom:link href="https://swpper.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算法</title>
+      <link>https://swpper.github.io/post/%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Thu, 22 Sep 2022 09:45:41 +0800</pubDate>
+      
+      <guid>https://swpper.github.io/post/%E7%AE%97%E6%B3%95/</guid>
+      <description>数据结构与算法 数据结构的常见操作  读取：查看索引处的值 查找：检查是否包含某个值，如果包含，给出索引 插入：插入一个新元素，包括移动其他数据的位置 删除：将索引处的数据去掉  时间复杂度：大O记法   大O记法不只是用固定的数字（如22、440）来表示算法的步数，而是基于要处理的数据量来描述算法所需的步数（步数与数据量的关系，通常考虑最坏情况）。或者说，大O解答的是这样的问题：当数据增长时，部署如何变化。
+*O(N)*算法所需的步数等于数据量，意思是当数组增加一个元素时，*O(N)算法就要增加1步。而O(1)*算法无论面对多大的数组，其步数都不变。*O(N)*也称为线性时间，O(1)也称为常数时间，只要所需的步数是恒定的，都属于O(1)。
+计算方法为：一共需要的步数（用数据量N表示） x 每步执行的操作数
+  选择排序的时间复杂度也是$O(N^2)$，但是实际上(是$O(N^2/2)$)比冒泡排序快一倍，这是因为大O记法忽略常数，大O记法的作用可以说是比较算法的本质区别，量级区别。但是像选择排序和冒泡排序这种差别也不能忽视，因为实际应用中，肯定是要选择选择排序而不是冒泡排序。
+  大O只保留最高的阶
+  同时，大O记法只表明，对于不同的分类，存在一个临界点（大数据），在这一点后，一类算法会快于另一类，并永远保持下去，至于这个点在哪里，大O记法并不关心。因此，大O记法适用于比较不同大O分类下的算法，对于不同大O的分类，还需要进一步比较。
+  时间复杂度一般考虑数据的最坏情况，但是有时候考虑大多数出现的情况（平均情况）是更有用的。因为现实世界中，最好情况和最坏情况很少发生。
+  典型大O记法复杂度
+  O(1)：表示算法无论面对多大的数据量，其步数总是相同的。例如数组末尾的插入与删除
+  O(n)：描述一种处理N元素数组需花N步的算法的效率。如线性查找在普通数组上逐个检查每个格子，最坏情况下所需的步数。
+  Olog(N)：表示处理N的元素需要$log_2N$步。对数时间。当数据量翻倍时，步数加1。例如二分查找（有序数组）。
+  $O(N^2)$：二次时间
+  冒泡排序：$O(N^2)$
+  选择排序：$O(N^2/2)$
+ 选择排序是给每个位置选择当前元素最小的，比如给第一个位置选择最小的，在剩余元素里面给第二个元素选择第二小的，依次类推，直到第n-1个元素，第n个元素不用选择了，因为只剩下它一个最大的元素了。那么，在一趟选择，如果一个元素比当前元素小，而该小的元素又出现在一个和当前元素相等的元素后面，那么交换后稳定性就被破坏了。举个例子，序列5 8 5 2 9，我们知道第一遍选择第1个元素5会和2交换，那么原序列中两个5的相对前后顺序就被破坏了，所以选择排序是一个不稳定的排序算法。    查入排序，优点是有提前退出机制
+  将第一待排序序列第一个元素看做一个有序序列，把第二个元素到最后一个元素当成是未排序序列。
+从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。）
+  最好情况：$O(N)$；平均情况：$O(N^2/2)$；最坏情况：$O(N^2)$
+      $O(N!</description>
+    </item>
+    
+    <item>
+      <title>Hugo Git</title>
+      <link>https://swpper.github.io/post/hugo-git/</link>
+      <pubDate>Wed, 21 Sep 2022 09:38:09 +0800</pubDate>
+      
+      <guid>https://swpper.github.io/post/hugo-git/</guid>
+      <description>[toc]
+教程   Docs
+ GitHub - gohugoio/hugo: The world’s fastest framework for building websites. Hugo Documentation | Hugo (gohugo.io) Complete List | Hugo Themes (gohugo.io) Hugo中文文档 (gohugo.org)    额外功能
+ 给hugo博客添加评论功能 - 腾讯云开发者社区-腾讯云 (tencent.com)    自定义主题
+ 如何创建自己的hugo主题 - 简书 (jianshu.com) 自定义hugo主题&amp;ndash;概述 - Hugo 中文帮助文档 (aiaide.com)    demo
+ 挚爱 · 青砾 (chingli.com)     日常使用流程   第一次
+ Hugo中文文档 (gohugo.</description>
+    </item>
+    
     <item>
       <title>Asasdasdasdadasda</title>
       <link>https://swpper.github.io/post/asasdasdasdadasda/</link>
@@ -17,21 +59,12 @@
     </item>
     
     <item>
-      <title>Lll</title>
-      <link>https://swpper.github.io/post/lll/</link>
-      <pubDate>Tue, 20 Sep 2022 18:12:17 +0800</pubDate>
+      <title>Asdasdasdads</title>
+      <link>https://swpper.github.io/post/asdasdasdads/</link>
+      <pubDate>Wed, 21 Sep 2022 00:04:14 +0800</pubDate>
       
-      <guid>https://swpper.github.io/post/lll/</guid>
-      <description>还是没有成功 </description>
-    </item>
-    
-    <item>
-      <title>Qq</title>
-      <link>https://swpper.github.io/post/qq/</link>
-      <pubDate>Tue, 20 Sep 2022 17:10:41 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/qq/</guid>
-      <description>这次总该成功了吧 </description>
+      <guid>https://swpper.github.io/post/asdasdasdads/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -53,113 +86,12 @@
     </item>
     
     <item>
-      <title>Bbbbbbbb</title>
-      <link>https://swpper.github.io/post/bbbbbbbb/</link>
-      <pubDate>Fri, 02 Jul 2021 13:34:31 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/bbbbbbbb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sss</title>
-      <link>https://swpper.github.io/post/sss/</link>
-      <pubDate>Fri, 02 Jul 2021 13:32:20 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/sss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test111222333</title>
-      <link>https://swpper.github.io/post/test111222333/</link>
-      <pubDate>Fri, 02 Jul 2021 11:11:55 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/test111222333/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Testzzz</title>
       <link>https://swpper.github.io/post/testzzz/</link>
       <pubDate>Fri, 02 Jul 2021 10:49:39 +0800</pubDate>
       
       <guid>https://swpper.github.io/post/testzzz/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Testmac</title>
-      <link>https://swpper.github.io/post/testmac/</link>
-      <pubDate>Thu, 01 Jul 2021 14:56:03 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/testmac/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test_123</title>
-      <link>https://swpper.github.io/post/test_123/</link>
-      <pubDate>Thu, 01 Jul 2021 12:52:53 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/test_123/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testfinal</title>
-      <link>https://swpper.github.io/post/testfinal/</link>
-      <pubDate>Sun, 27 Jun 2021 04:24:07 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/testfinal/</guid>
-      <description>final smile</description>
-    </item>
-    
-    <item>
-      <title>Test3333</title>
-      <link>https://swpper.github.io/post/test3333/</link>
-      <pubDate>Sun, 27 Jun 2021 02:29:11 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/test3333/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test3</title>
-      <link>https://swpper.github.io/post/test3/</link>
-      <pubDate>Wed, 24 Feb 2021 10:46:53 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/test3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test2</title>
-      <link>https://swpper.github.io/post/test2/</link>
-      <pubDate>Mon, 22 Feb 2021 18:52:20 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/test2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test2</title>
-      <link>https://swpper.github.io/post/test627/</link>
-      <pubDate>Mon, 22 Feb 2021 18:52:20 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/test627/</guid>
-      <description>asdasd asdasda </description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://swpper.github.io/post/test/</link>
-      <pubDate>Mon, 22 Feb 2021 18:01:36 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/test/</guid>
-      <description>#asdasdasd ##asdasdasd
-  asdasdasdada asdasdasd
- </description>
     </item>
     
     <item>

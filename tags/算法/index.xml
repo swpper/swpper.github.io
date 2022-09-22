@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>川道</title>
-    <link>https://swpper.github.io/</link>
-    <description>Recent content on 川道</description>
+    <title>算法 on 川道</title>
+    <link>https://swpper.github.io/tags/%E7%AE%97%E6%B3%95/</link>
+    <description>Recent content in 算法 on 川道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Sep 2022 09:45:41 +0800</lastBuildDate><atom:link href="https://swpper.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2022 09:45:41 +0800</lastBuildDate><atom:link href="https://swpper.github.io/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>算法</title>
       <link>https://swpper.github.io/post/%E7%AE%97%E6%B3%95/</link>
@@ -32,75 +32,6 @@
 从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。）
   最好情况：$O(N)$；平均情况：$O(N^2/2)$；最坏情况：$O(N^2)$
       $O(N!</description>
-    </item>
-    
-    <item>
-      <title>Hugo Git</title>
-      <link>https://swpper.github.io/post/hugo-git/</link>
-      <pubDate>Wed, 21 Sep 2022 09:38:09 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/hugo-git/</guid>
-      <description>[toc]
-教程   Docs
- GitHub - gohugoio/hugo: The world’s fastest framework for building websites. Hugo Documentation | Hugo (gohugo.io) Complete List | Hugo Themes (gohugo.io) Hugo中文文档 (gohugo.org)    额外功能
- 给hugo博客添加评论功能 - 腾讯云开发者社区-腾讯云 (tencent.com)    自定义主题
- 如何创建自己的hugo主题 - 简书 (jianshu.com) 自定义hugo主题&amp;ndash;概述 - Hugo 中文帮助文档 (aiaide.com)    demo
- 挚爱 · 青砾 (chingli.com)     日常使用流程   第一次
- Hugo中文文档 (gohugo.</description>
-    </item>
-    
-    <item>
-      <title>Asasdasdasdadasda</title>
-      <link>https://swpper.github.io/post/asasdasdasdadasda/</link>
-      <pubDate>Wed, 21 Sep 2022 00:30:04 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/asasdasdasdadasda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Asdasdasdads</title>
-      <link>https://swpper.github.io/post/asdasdasdads/</link>
-      <pubDate>Wed, 21 Sep 2022 00:04:14 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/asdasdasdads/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2022 1</title>
-      <link>https://swpper.github.io/post/2022-1/</link>
-      <pubDate>Tue, 20 Sep 2022 15:33:47 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/2022-1/</guid>
-      <description>测试draft标签  draft false会有什么效果  </description>
-    </item>
-    
-    <item>
-      <title>2022</title>
-      <link>https://swpper.github.io/post/2022/</link>
-      <pubDate>Tue, 20 Sep 2022 15:30:55 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/2022/</guid>
-      <description>再一次的测试  要真的开始写博客了吗  </description>
-    </item>
-    
-    <item>
-      <title>Testzzz</title>
-      <link>https://swpper.github.io/post/testzzz/</link>
-      <pubDate>Fri, 02 Jul 2021 10:49:39 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/post/testzzz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>我的第一篇博客</title>
-      <link>https://swpper.github.io/post/testnnnn/</link>
-      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://swpper.github.io/post/testnnnn/</guid>
-      <description>这里是Markdown 正文</description>
     </item>
     
   </channel>

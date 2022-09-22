@@ -6,22 +6,31 @@
     <description>Recent content in Tags on 川道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Sep 2022 00:30:04 +0800</lastBuildDate><atom:link href="https://swpper.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2022 09:45:41 +0800</lastBuildDate><atom:link href="https://swpper.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算法</title>
+      <link>https://swpper.github.io/tags/%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Thu, 22 Sep 2022 09:45:41 +0800</pubDate>
+      
+      <guid>https://swpper.github.io/tags/%E7%AE%97%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://swpper.github.io/tags/hugo/</link>
+      <pubDate>Wed, 21 Sep 2022 09:38:09 +0800</pubDate>
+      
+      <guid>https://swpper.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>test</title>
       <link>https://swpper.github.io/tags/test/</link>
       <pubDate>Wed, 21 Sep 2022 00:30:04 +0800</pubDate>
       
       <guid>https://swpper.github.io/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tag1</title>
-      <link>https://swpper.github.io/tags/tag1/</link>
-      <pubDate>Sun, 27 Jun 2021 02:29:11 +0800</pubDate>
-      
-      <guid>https://swpper.github.io/tags/tag1/</guid>
       <description></description>
     </item>
     
